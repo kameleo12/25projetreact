@@ -1,0 +1,38 @@
+.item {
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.content {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px rgba(0, 98, 90, 0.4), 10px 10px rgba(0, 98, 90, 0.3), 15px 15px rgba(0, 98, 90, 0.2), 20px 20px rgba(0, 98, 90, 0.1), 25px 25px rgba(0, 98, 90, 0.05);
+
+}
+
+.wrapper {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper button {
+    padding: 10px;
+    margin: 10px;
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 4px;
+    
+
+}
+
+.wrapper button:hover {
+    background-color: aqua;
+}
