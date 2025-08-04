@@ -1,0 +1,43 @@
+.wrapper-tab {
+    padding: 8px;
+}
+
+.heading-tab{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.content-tab {
+  max-width: 600px;    /* ou la largeur souhaitée */
+  margin: 0 auto;      /* top/bottom = 0, left/right = auto */
+  /* facultatif : centrer le texte à l’intérieur */
+  text-align: center;  
+}
+
+.tab-item{
+    display: inline-flex;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background: #4e016a;
+
+}
+
+.tab-item.active{
+    border-color: black;
+    background-color: #a1d600;
+    color: white;
+}
+
+
+.content-tab{
+    padding: 20px 10px;
+    height: 300px;
+    overflow: auto;
+    background-color: #fff;
+}

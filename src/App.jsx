@@ -6,6 +6,9 @@ import ImageSlider from './components/image-slider'
 import LoadMoreData from './components/loadmoredata'
 import QRCodeGenerator from './components/qrcode'
 import LightDarkMode from './components/themeswitch'
+import Tabs from './components/tabs/tabs'
+import TabTest from './components/tabs/tab-test'
+import ModalTest from './components/custommodelpopup/modal-test'
 
 
 
@@ -22,6 +25,8 @@ function App() {
       <LoadMoreData />   
       <QRCodeGenerator />
       <LightDarkMode />
+      <TabTest />
+      <ModalTest />
     </>
   )
 }
