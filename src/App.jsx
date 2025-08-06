@@ -9,6 +9,7 @@ import Tabs from "./components/tabs/tabs";
 import TabTest from "./components/tabs/tab-test";
 import ModalTest from "./components/custommodelpopup/modal-test";
 import GithubProfilFinder from "./components/githubprofilfinder";
+import SearchAutocomplete from "./components/search-autocomplete";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <TabTest />
       <ModalTest />
       <GithubProfilFinder />
+      <SearchAutocomplete />
     </>
   );
 }
