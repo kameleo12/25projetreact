@@ -13,6 +13,7 @@ import SearchAutocomplete from "./components/search-autocomplete";
 import TicTacToe from "./components/tictactoe";
 import FeatureFlags from "./components/feature-flag";
 import FeatureFlagGlobalState from "./components/feature-flag/context";
+import UseOnClickOutsideTest from "./components/use-outside-click/test";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
       <FeatureFlagGlobalState>
         <FeatureFlags />
       </FeatureFlagGlobalState>
+      <UseOnClickOutsideTest />
     </>
   );
 }
